@@ -1,0 +1,9 @@
+from pathlib import Path
+colors=[('#b7b9ec','#676bb3'),('#a0d4c6','#478c84'),('#d0b2e7','#8266ac'),('#e5ca9f','#aa8054'),('#dfb3c9','#aa708e')]
+for i,(light,dark) in enumerate(colors,1):
+    shape=f'<ellipse cx="320" cy="190" rx="120" ry="120" fill="url(#orb)"/><ellipse cx="320" cy="207" rx="201" ry="42" fill="none" stroke="{light}" stroke-width="2" transform="rotate(-28 320 207)"/>'
+    if i==2: shape=f'<rect x="207" y="77" width="226" height="226" rx="65" transform="rotate(27 320 190)" fill="url(#orb)"/><circle cx="320" cy="190" r="67" fill="#111620"/>'
+    if i==3: shape=f'<path d="M320 58 464 280H176Z" fill="url(#orb)"/><path d="M320 125 420 281H220Z" fill="#161326" opacity=".6"/>'
+    if i==4: shape=f'<rect x="187" y="90" width="150" height="210" rx="75" fill="url(#orb)"/><rect x="305" y="58" width="150" height="210" rx="75" fill="url(#orb)" opacity=".7"/>'
+    if i==5: shape=f'<circle cx="320" cy="185" r="112" fill="none" stroke="url(#orb)" stroke-width="48"/><circle cx="320" cy="185" r="55" fill="none" stroke="{light}" opacity=".4"/>'
+    Path(f'public/assets/placeholder-{i}.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Neutral abstract placeholder, not a product image"><defs><radialGradient id="bg"><stop stop-color="{dark}" stop-opacity=".23"/><stop offset="1" stop-color="#090b11"/></radialGradient><linearGradient id="orb" x2=".85" y2="1"><stop stop-color="{light}"/><stop offset=".48" stop-color="{dark}"/><stop offset="1" stop-color="#171727"/></linearGradient></defs><rect width="640" height="360" fill="#090b11"/><rect width="640" height="360" fill="url(#bg)"/>{shape}<text x="320" y="340" text-anchor="middle" fill="#a4a5ae" font-family="Arial" font-size="10" letter-spacing="2">ILLUSTRATIVE VISUAL · NOT A PRODUCT ASSET</text></svg>')

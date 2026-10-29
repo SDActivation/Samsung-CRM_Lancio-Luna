@@ -3,14 +3,14 @@
 - Site: https://luna-crm-variant-studio.vercel.app
 - Functional application name: Samsung CRM Activation Studio
 - Product: Luna
-- Release: V3 / specification 2.1
+- Release: V4 core / specification 2.3; live model and image services not connected
 - GitHub: https://github.com/SDActivation/Samsung-CRM_Lancio-Luna
 - Vercel team: SD ACTIVATION
 - Project: luna-crm-variant-studio (technical URL/project ID retained)
 - Project ID: prj_lGK7tlXmjFHQxYY2EuCtUZb5OUX5
 - Production branch: main
 - Frontend: React / TypeScript / Vite
-- Same-origin backend: /api/handoff, native Node.js Web Request/Response Vercel Function with a self-contained ESM build artifact
+- Same-origin backend: /api/handoff and /api/studio, native Node.js Web Request/Response Vercel Function with a self-contained ESM build artifact
 - Build gate: unit tests followed by TypeScript and Vite production build
 - Production is public. Application login and credentials are intentionally absent.
 

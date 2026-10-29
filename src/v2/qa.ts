@@ -29,7 +29,7 @@ export function runQA(v:Variant,options:{faults?:Fault[];profile?:Profile;all?:V
  add('SOURCE_TRACEABILITY','pass','Source micro-cluster, slide, recipe and claim evidence retained.','Recheck after edits.','SOURCE_CATALOGUE');
  add('LOGO_CLEAR_SPACE_NOT_VERIFIED','needs_review','Numeric clear space and minimum lettermark size are unavailable.','Obtain the readable authorized guide for numeric clear space and minimum size.','LETTERMARK_GUIDE_2026');
  add('FONT_FALLBACK_ACTIVE','needs_review','Arial fallback; licensed Samsung font files unavailable.','Supply authorized local fonts.','DEM_B2C_01');
- add('CREATIVE_ASSET_PENDING_APPROVAL','needs_review','Luna concept asset placeholder; no official product render supplied.','Provide an authorized Luna visual.','LUNA_FORM');
+ add('CREATIVE_ASSET_PENDING_APPROVAL','needs_review','AI-generated Luna concept artwork; human fidelity, rights and campaign review remain pending.','Review generated demo artwork; replace with an authorized official product asset when available.','LUNA_FORM');
  add('BRAND_LEGAL_CAMPAIGN_PENDING','needs_review','Automatic checks do not approve the campaign or commercial scenario.','Complete human creative, brand, product and legal review.');
  add('AUDIO','not_applicable','Static silent proof.','No audio needed.','BRAND_SOUND');return issues;}
 export const qaStatus=(issues:Issue[]):Variant['qa_status']=>issues.some(i=>i.status==='fail')?'fail':issues.some(i=>i.status==='needs_review')?'needs_review':'pass';

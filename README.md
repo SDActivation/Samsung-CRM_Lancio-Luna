@@ -1,3 +1,9 @@
+# Samsung CRM Activation Studio — V4 / spec 2.3
+
+Public demo: https://luna-crm-variant-studio.vercel.app · no login.
+
+V4 adds a black transparent official Samsung logo, generated Luna visual, Simulation and computed Priority & Opportunity. The assistant includes evidence lookup; live AI chat and new image generation are **not connected**. See [V4 delivery and limits](docs/v4-change-log.md).
+
 # Samsung CRM Activation Studio · V3
 
 A React / TypeScript Samsung CRM workspace for the product **Luna**, driven by source definitions, explicit rules and synthetic evidence. V3 implements specification 2.1.
@@ -22,7 +28,7 @@ npx playwright install --with-deps chromium
 npm run test:e2e
 ```
 
-Seed: 20261029. Evaluation time: 2026-10-29 12:00 UTC. `npm run data` materializes separately named, schema-validated JSON fixtures in the ignored `data-fixtures/` directory. The browser exports the same named models, actual CSV rows, QA, eligibility and coverage gaps. HTML proofs embed their visual placeholders and open offline.
+Seed: 20261029. Evaluation time: 2026-10-29 12:00 UTC. `npm run data` materializes separately named, schema-validated JSON fixtures in the ignored `data-fixtures/` directory. The browser exports the same named models, actual CSV rows, QA, eligibility and coverage gaps. HTML proofs embed the generated concept artwork and original logo and open offline.
 
 ## Included
 
@@ -40,7 +46,7 @@ Seed: 20261029. Evaluation time: 2026-10-29 12:00 UTC. `npm run data` materializ
 
 Source text from Appendix A is immutable and separately versioned from resolved rules. Additional journey, phase and surface mappings are `implementation_proposal`; WhatsApp is `RFP_adaptation`. The source-deck 30-day MC061 threshold is distinct from configurable illustrative caps and unknown general CRM thresholds.
 
-The B2C email master preserves the observed 660/640px dark structure, typography hierarchy, CTA pill and modular footer from the supplied specification. Original Outlook HTML was not present in the project folder. The original Samsung lettermark has been acquired from the explicit official sample URL, visually verified and pinned by checksum; its bytes are unchanged. Authorized fonts, a Luna product visual and approved legal lines remain missing. Arial and an explicit product-visual-pending slot are used. B2B has its own visibly unapproved template placeholder.
+The B2C email master preserves the observed 660/640px dark structure, typography hierarchy, CTA pill and modular footer from the supplied specification. Original Outlook HTML was not present in the project folder. The original Samsung lettermark has been acquired from the explicit official sample URL, visually verified and pinned by checksum; its bytes are unchanged. Authorized fonts, a Luna product visual and approved legal lines remain missing. Arial and an explicit generated concept artwork are used. B2B has its own visibly unapproved template placeholder.
 
 Browser proofs do not certify Gmail / Outlook / Apple Mail compatibility. No measured savings, uplift, service SLA, commercial launch or Samsung approval is claimed. Every instance retains `production_approved: false`.
 

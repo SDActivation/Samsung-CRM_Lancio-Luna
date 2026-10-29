@@ -1,0 +1,106 @@
+{
+  "asset_id": "LUNA_LAUNCH_KV_ARTWORK_V001",
+  "master_id": "LUNA_LAUNCH_KV_ARTWORK_V001",
+  "kv_family_id": "LUNA_LAUNCH_KV",
+  "file": "/assets/kv_luna_launch_artwork_v001.png",
+  "asset_origin": "generated_demo_asset",
+  "official_asset": false,
+  "production_approved": false,
+  "created_at": "2026-10-29",
+  "provider": "OpenAI built-in image_gen authoring tool",
+  "model": "Not exposed by authoring tool; not inferred",
+  "model_version": "Not exposed",
+  "parameters": {
+    "requested_aspect_ratio": "16:9",
+    "requested_size": "2048x1152",
+    "actual_size": [
+      1672,
+      941
+    ],
+    "upscaling": false
+  },
+  "checksum_sha256": "c0fbca3407f3e1eb59e8f652dc77f64a0d88c8d5892f37cc1386e479ed19beef",
+  "bytes": 1764870,
+  "width_px": 1672,
+  "height_px": 941,
+  "reference": [
+    {
+      "source_id": "LUNA_HDBLOG_SCREENSHOTS",
+      "locator": "Screenshot 2026-10-29 alle 16.18.54.png; editorial photograph crop x300 y285 w165 h130",
+      "role": "Product geometry and visible appearance only",
+      "rights": "Editorial reference; commercial photo license not established"
+    }
+  ],
+  "prompt_version": "luna-artwork-2.3.1",
+  "prompt_file": "/assets/kv_luna_launch_prompt_v001.txt",
+  "status": "generated",
+  "product_fidelity_review": {
+    "status": "product_review_passed",
+    "reviewer": "Codex visual inspection, 2026-10-29",
+    "checks": [
+      "Solid full dark circular head, not hollow",
+      "Visible front light ring",
+      "Short pedestal and intact product",
+      "No invented hardware, logos, text or additional devices"
+    ],
+    "limitation": "Concept likeness only; industrial fidelity and human approval remain pending"
+  },
+  "demo_approved": false,
+  "human_review": "pending",
+  "production_approval": "pending",
+  "disclosure": "AI-generated concept visual \u2014 RFP proposal, not an official Samsung campaign",
+  "derivations": [
+    {
+      "asset_id": "LUNA_LAUNCH_KV_HERO_V001",
+      "parent_asset_id": "LUNA_LAUNCH_KV_ARTWORK_V001",
+      "file": "/assets/kv_luna_launch_hero_v001.jpg",
+      "width_px": 1672,
+      "height_px": 941,
+      "transformation": "JPEG quality 80 web delivery derivative, same composition; no upscaling",
+      "checksum_sha256": "52dae5e58b7203742322cde1495b5b55c481ccf66e2f2e5e590db838cd5413ab",
+      "bytes": 201109
+    },
+    {
+      "asset_id": "LUNA_LAUNCH_KV_COMPOSED_V001",
+      "parent_asset_id": "LUNA_LAUNCH_KV_ARTWORK_V001",
+      "file": "/assets/kv_luna_launch_composed_v001.png",
+      "width_px": 1280,
+      "height_px": 720,
+      "checksum_sha256": "ab4981cbeca7ce4d82298bd2a410a15e63e1b6d16d676bac4460342b46b6df82",
+      "bytes": 712786,
+      "asset_origin": "generated_demo_asset_composition",
+      "official_asset": false,
+      "production_approved": false,
+      "transformation": "Native renderer: contain entire artwork, original separate black logo on light header, live-source text and CTA layers, demo disclosure. No product crop or stretch.",
+      "review": "Codex visual inspection passed; human review pending"
+    },
+    {
+      "asset_id": "LUNA_LAUNCH_KV_SQUARE_V001",
+      "parent_asset_id": "LUNA_LAUNCH_KV_ARTWORK_V001",
+      "file": "/assets/kv_luna_launch_square_v001.png",
+      "width_px": 1080,
+      "height_px": 1080,
+      "checksum_sha256": "35f8daed120c3f4fe8f488066e232aa97655475f98b28ebf98744d25b62fb48c",
+      "bytes": 828216,
+      "asset_origin": "generated_demo_asset_composition",
+      "official_asset": false,
+      "production_approved": false,
+      "transformation": "Native renderer: contain entire artwork, original separate black logo on light header, live-source text and CTA layers, demo disclosure. No product crop or stretch.",
+      "review": "Codex visual inspection passed; human review pending"
+    },
+    {
+      "asset_id": "LUNA_LAUNCH_KV_PORTRAIT_V001",
+      "parent_asset_id": "LUNA_LAUNCH_KV_ARTWORK_V001",
+      "file": "/assets/kv_luna_launch_portrait_v001.png",
+      "width_px": 1080,
+      "height_px": 1350,
+      "checksum_sha256": "fdfc981071df277a1776dbe7b4c24d75dabceff86cdfda80139e00c0b34ce00c",
+      "bytes": 835044,
+      "asset_origin": "generated_demo_asset_composition",
+      "official_asset": false,
+      "production_approved": false,
+      "transformation": "Native renderer: contain entire artwork, original separate black logo on light header, live-source text and CTA layers, demo disclosure. No product crop or stretch.",
+      "review": "Codex visual inspection passed; human review pending"
+    }
+  ]
+}

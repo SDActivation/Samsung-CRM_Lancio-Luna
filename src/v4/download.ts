@@ -1,0 +1,1 @@
+export function download(name:string,data:unknown,type='application/json'){const text=typeof data==='string'?data:JSON.stringify(data,null,2);const url=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}

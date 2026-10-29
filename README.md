@@ -1,46 +1,47 @@
-# Luna CRM Variant Studio
+# Luna CRM Variant Studio · V2
 
-A React / TypeScript demonstration of a transparent CRM creative workflow: Sense → Brief → Build → Check → Handoff. UI and creative copy are English.
+A React / TypeScript CRM creative demonstration driven by source definitions, explicit rules and synthetic evidence.
 
-**SYNTHETIC / ILLUSTRATIVE · PENDING BRAND VALIDATION**
+**SYNTHETIC / ILLUSTRATIVE · RFP DEMO — SIMULATED COMMERCIAL LAUNCH · PENDING BRAND VALIDATION**
 
-The seeded simulator creates 10,000 opaque customer profiles and exactly 100 creative instances: 5 audiences × 5 campaign phases × 4 touchpoints. These are modular combinations, not 100 original concepts or sends. No Samsung service, live sending system, AI API, tracking, remote image or personal data is used at runtime.
+The 100 original micro-clusters are a source catalogue, not a promise of 100 original concepts or actual sends. A configurable target is selected from coherent, signature-deduplicated recipes. If the pool is too small, the result is explicitly incomplete with a coverage-gap report.
 
-## Run
+The user explicitly requested no credentials or login for now. No authentication, passwords, secrets or login flag is included. All runtime profiles and events are synthetic. The original private Markdown, screenshots and source presentation remain outside GitHub, browser assets and exports.
 
-Use Node 22 or 24 and npm. Initial installation requires network access; after installation the demo runs without external services.
+## Run and verify
+
+Node 22 or 24 and npm. Installation requires network; after setup no external runtime services are needed.
 
 ```sh
-npm install
+npm ci
 npm run dev
 npm run test
 npm run build
 npm run data
-npx playwright install chromium
+npx playwright install --with-deps chromium
 npm run test:e2e
 ```
 
-`npm run data` materializes separately versioned, schema-validated JSON fixtures in `data-fixtures/`. Browser exports provide the same records in a single named-file bundle, plus CSV, eligibility and QA reports. Seed is 20261029; default evaluation time is 2026-10-29 12:00 UTC. Downloaded HTML proofs embed neutral illustrations and open offline.
+Seed: 20261029. Evaluation time: 2026-10-29 12:00 UTC. `npm run data` materializes separately named, schema-validated JSON fixtures in the ignored `data-fixtures/` directory. The browser exports the same named models, actual CSV rows, QA, eligibility and coverage gaps. HTML proofs embed their visual placeholders and open offline.
 
 ## Included
 
-- Synthetic profiles, overlapping segment memberships, explicit primary assignment and residual long tail.
-- Gallery with segment / phase / channel / status filters, sorting, explainability, mounted responsive email, push lock screen, WhatsApp and Members proofs.
-- Three-way comparison, a five-phase persistent-customer journey, reversible click / purchase / opt-out and configurable illustrative contact caps.
-- Consent, availability, frequency, purchase and HQ-conflict governance. No automatic channel fallback.
-- Preflight fault injection, severity/source/remediation, version delta and offline mock Jira handoff.
-- Complete 100-record JSON/CSV handoff, asset / brand registers and synthetic labels.
+- 12 data dimensions, 6 analytical lenses, 10 macro families and 100 unchanged source micro-clusters with source slides and original channel / CTA wording.
+- 10,000 reproducible synthetic contact/session profiles, overlapping membership history and 100 separate business accounts. Curated fixture membership is explicit, not a calibrated CRM algorithm.
+- Independent campaign phases, six-stage relationship journeys and lifecycle states. Three-state match / no_match / unknown evaluation.
+- Per-surface Members / Shop / WhatsApp permissions, anonymous contextual acquisition, cart recovery, purchase / delivery / setup / usage separation, lawful-telemetry checks, support context, offer terms and HQ / cap conflicts.
+- Parametric creative generation with actual candidate / selected / eligible / approved counters, gap report, three-way comparison and inspectable recipes.
+- Six distinct deck personas, at least 12 curated mounted proofs and a separate single-customer event journey.
+- Email, Members content and push, Shop push, web banner, landing, WhatsApp RFP adaptation and a distinct B2B email placeholder.
+- Product concept claim registry, source evidence, scenario permission and approval separation. No invented retail price, availability or compatibility.
+- Deterministic QA with deliberate faults, severity/source/remediation, mock Jira deltas and versioned exports.
 
-## Architecture
+## Provenance and limits
 
-Pure typed domain and engine modules; React presentation; Zod validates generated customer and creative schemas and export boundaries; Vitest unit tests; Playwright browser flow and responsive proof tests. No database or external credentials required. `docs/assumptions.md` records provenance and open reviews; `docs/demo-script.md` provides the walkthrough.
+Source text from Appendix A is immutable and separately versioned from resolved rules. Additional journey, phase and surface mappings are `implementation_proposal`; WhatsApp is `RFP_adaptation`. The source-deck 30-day MC061 threshold is distinct from configurable illustrative caps and unknown general CRM thresholds.
 
-## Brand and implementation limits
+The B2C email master preserves the observed 660/640px dark structure, typography hierarchy, CTA pill and modular footer from the supplied specification. Original Outlook HTML was not present in the project folder. Authorized logo, fonts, Luna visual and legal line are still missing. Arial and an explicit asset-pending slot are used. B2B has its own visibly unapproved template placeholder.
 
-The email master is reconstructed from the sample observations in the provided specification (660/640px, dark base, typography hierarchy, pill CTA and modular footer). The original Outlook HTML was not present in the supplied folder and is not included. The specification and confidential reference materials remain outside this repository.
+Browser proofs do not certify Gmail / Outlook / Apple Mail compatibility. No measured savings, uplift, service SLA, commercial launch or Samsung approval is claimed. Every instance retains `production_approved: false`.
 
-Arial fallback, logo placeholder and original neutral SVG illustrations are explicit. Product specifications, assets, terms and numeric lettermark clear space remain unapproved. Browser previews do not certify Gmail, Outlook or Apple Mail rendering. No measured uplift, savings, SLA compliance or Samsung approval is claimed. All 100 variants retain `production_approved: false`.
-
-## Deployment
-
-Vite static build output is `dist`. Vercel uses the project configuration; connect the private GitHub repository and use `main` as the production branch. No environment variables are needed. Build must pass unit tests and TypeScript before publication. See `docs/verification.md` for actual verification status.
+See `docs/v2-change-log.md`, `docs/assumptions.md`, `docs/demo-script.md` and `docs/verification.md`. Vercel builds run unit tests before TypeScript and Vite. No environment variables are needed for this credential-free demo.

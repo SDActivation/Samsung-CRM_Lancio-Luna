@@ -1,0 +1,110 @@
+[
+  {
+    "dimension_id": "D01",
+    "name": "SOCIO-DEMOGRAPHICS",
+    "proposed_fields": "age_band, coarse_geography, declared_household_context",
+    "role_and_limit": "Optional, coarse or declared context. Never infer household composition or use demographics as the sole decision factor.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Contesto, non determinante unico. Valori opzionali, aggregati o dichiarati; non inferire composizione familiare"
+  },
+  {
+    "dimension_id": "D02",
+    "name": "SAMSUNG OWNERSHIP",
+    "proposed_fields": "registered_products, purchased_categories, ownership_tenure, category_count",
+    "role_and_limit": "Ownership depth and category combinations indicate relationship context, not verified Luna compatibility.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Forza della relazione e opportunità di ecosistema; possesso non prova compatibilità con Luna"
+  },
+  {
+    "dimension_id": "D03",
+    "name": "COMPETITOR OWNERSHIP",
+    "proposed_fields": "declared_other_brand_products, provenance",
+    "role_and_limit": "Use only explicitly declared other-brand ownership with provenance. Weak signals do not identify a competitor device.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Bisogni e barriere al cambio; nessuna deduzione del marchio posseduto da segnali deboli"
+  },
+  {
+    "dimension_id": "D04",
+    "name": "SMART HOME",
+    "proposed_fields": "connected_devices, smart_home_interests, compatibility_evidence",
+    "role_and_limit": "Home interests and connected-device context are distinct from confirmed product integrations.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Interesse/contesto distinto dalle integrazioni effettivamente confermate"
+  },
+  {
+    "dimension_id": "D05",
+    "name": "PURCHASE INTENT",
+    "proposed_fields": "luna_page_events, configurations, wishlist, cart, relevant_searches",
+    "role_and_limit": "Keep curiosity, content exploration, wishlist, configuration and valid mock-cart intent separate.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Separare curiosità, approfondimento e intento; eventi tutti simulati"
+  },
+  {
+    "dimension_id": "D06",
+    "name": "CLTV",
+    "proposed_fields": "expected_margin_band, frequency_band, recency_band, categories, repurchase_band",
+    "role_and_limit": "Qualitative illustrative value priorities are not a validated prediction model. Unprovided thresholds remain unknown.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Priorità economica, non formula predittiva già validata; importi e soglie non forniti restano ipotesi"
+  },
+  {
+    "dimension_id": "D07",
+    "name": "LIFECYCLE",
+    "proposed_fields": "relationship_state, relationship_tags, purchase_history",
+    "role_and_limit": "Prospect, first-time, repeat, ecosystem, dormant and win-back states use explicit precedence and event history.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Prospect, first-time, repeat, ecosystem, dormant, win-back; regole di precedenza esplicite"
+  },
+  {
+    "dimension_id": "D08",
+    "name": "PURCHASE CHANNEL",
+    "proposed_fields": "observed_purchase_channels, stated_purchase_preference",
+    "role_and_limit": "Observed or declared purchase preference is separate from the communication surface and its permission.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Dove si compra, distinto dal canale della comunicazione"
+  },
+  {
+    "dimension_id": "D09",
+    "name": "REWARDS",
+    "proposed_fields": "enrolled, balance_band, redemption_history, prior_benefit_response",
+    "role_and_limit": "Rewards relevance requires approved eligibility and terms. Membership does not imply a general discount.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Benefici pertinenti e autorizzati, non sconto generalizzato"
+  },
+  {
+    "dimension_id": "D10",
+    "name": "ENGAGEMENT",
+    "proposed_fields": "events_by_channel, recency_by_channel, contact_history, pressure",
+    "role_and_limit": "Engagement timing and contact history inform pressure. They never replace per-surface consent.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Timing/canale/frequenza; consensi gestiti separatamente"
+  },
+  {
+    "dimension_id": "D11",
+    "name": "MOTIVATION",
+    "proposed_fields": "declared_preferences, content_interests, quiz_choices",
+    "role_and_limit": "Needs come from declared preferences or sourced synthetic events. One click does not establish a certain motivation.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Bisogno espresso o segnale osservato con fonte; non attribuire una motivazione certa da un solo click"
+  },
+  {
+    "dimension_id": "D12",
+    "name": "B2B",
+    "proposed_fields": "industry, company_size_band, contact_role, sales_cycle, account_potential",
+    "role_and_limit": "Professional account/contact context, industry and assessment objectives stay separate from consumer checkout.",
+    "source_slide": 6,
+    "mapping_origin": "implementation_proposal",
+    "role_and_limit_original": "Modello account/contatto e obiettivi lead/demo/pilot, distinti dal consumer"
+  }
+]

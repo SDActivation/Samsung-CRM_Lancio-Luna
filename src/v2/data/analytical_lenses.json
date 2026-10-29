@@ -1,0 +1,44 @@
+[
+  {
+    "lens_id": "L01",
+    "name": "Ecosystem penetration",
+    "interpretation": "Read the number and combination of owned categories; no automatic Luna compatibility inference.",
+    "source_slide": 7,
+    "source_description_original": "Numero e combinazione delle categorie possedute"
+  },
+  {
+    "lens_id": "L02",
+    "name": "Cross-category affinity",
+    "interpretation": "Explore category and interest associations as hypotheses with explicit provenance.",
+    "source_slide": 7,
+    "source_description_original": "Associazioni tra categorie e interessi per dispositivi connessi"
+  },
+  {
+    "lens_id": "L03",
+    "name": "Path to purchase",
+    "interpretation": "Interpret sequences of synthetic visits, configurations, support and contacts before a purchase.",
+    "source_slide": 7,
+    "source_description_original": "Sequenze di visite, configurazioni, assistenza e contatti prima dell'acquisto"
+  },
+  {
+    "lens_id": "L04",
+    "name": "Channel affinity",
+    "interpretation": "Keep discovery channel, conversion channel and stated preference distinct.",
+    "source_slide": 7,
+    "source_description_original": "Canale di scoperta, conversione e preferenza dichiarata, senza confonderli"
+  },
+  {
+    "lens_id": "L05",
+    "name": "Value & incrementality",
+    "interpretation": "Prioritize illustrative value. Incrementality requires a comparison experiment and cannot be inferred from simulated sales.",
+    "source_slide": 7,
+    "source_description_original": "Valore e priorità; l'incrementalità richiede un confronto sperimentale, non si desume da vendite simulate"
+  },
+  {
+    "lens_id": "L06",
+    "name": "White-space analysis",
+    "interpretation": "Record unmet needs and uncovered combinations as testable hypotheses, not proven market opportunities.",
+    "source_slide": 7,
+    "source_description_original": "Bisogni o combinazioni non coperti, registrati come ipotesi da testare"
+  }
+]

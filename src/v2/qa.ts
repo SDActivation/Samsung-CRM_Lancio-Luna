@@ -1,0 +1,26 @@
+import { CLOCK, type Issue, type Profile, type Variant } from './model';
+export const faultLabels={commercial:'Unverified commercial claim',business:'B2B treated as consumer',channel:'Unresolved touchpoint',telemetry:'Missing usage treated as inactivity',disclaimer:'Missing disclaimer',landing:'CTA / landing mismatch',length:'Copy over limit',consent:'Surface without consent',rewards:'Unapproved Rewards offer',duplicate:'Duplicate content signature',expiry:'Promotion without validity'};
+export type Fault=keyof typeof faultLabels;
+export function runQA(v:Variant,options:{faults?:Fault[];profile?:Profile;all?:Variant[]}={}):Issue[]{const issues:Issue[]=[];const faults=options.faults??[];
+ const add=(code:string,status:Issue['status'],message:string,remediation:string,source_id='IMPLEMENTATION_POLICY')=>issues.push({code,status,severity:status==='fail'?'error':status==='needs_review'?'warning':'info',source_id,message,remediation});
+ if(faults.includes('commercial'))add('UNVERIFIED_COMMERCIAL_CLAIM','fail','Retail price, availability or a guaranteed product feature is unverified.','Remove the claim; keep concept evidence separate from the launch simulation.','LUNA_MARKET_STATUS');
+ if(faults.includes('business'))add('B2B_CONSUMER_MISMATCH','fail','A professional account was treated as a consumer checkout audience.','Use account/contact scope and a professional assessment CTA.','DECK_SLIDE_14');
+ if(faults.includes('channel'))add('NEEDS_CHANNEL_RESOLUTION','fail','The original source channel does not resolve to a specific permitted surface.','Record an explicit surface mapping and evaluate permission.','DECK_CHANNEL_MAPPING');
+ if(faults.includes('telemetry'))add('FALSE_INACTIVITY_SIGNAL','fail','Missing or non-permitted telemetry was interpreted as non-use.','Return unknown; require lawful observation and an explicit window.','MC099');
+ if(faults.includes('disclaimer')||!v.disclaimer)add('MISSING_DISCLAIMER','fail','The simulation/legal disclaimer is absent.','Restore the label and send legal copy for review.');
+ if(faults.includes('landing')||!v.landing_ref.startsWith(`/mock/luna/${v.journey_stage.toLowerCase()}/`))add('CTA_LANDING_MISMATCH','fail','The CTA is not mapped to the registered phase and need.','Use the registered local route for this recipe.');
+ const bodyLimit=v.touchpoint.startsWith('PUSH')?200:v.touchpoint==='WEB_BANNER'?350:1200;
+ if(faults.includes('length')||v.copy.body.length>bodyLimit||v.copy.hero_title.length>110)add('COPY_OVER_LIMIT','fail','Copy exceeds this illustrative format limit.','Shorten copy; verify technical limits with the surface owner.');
+ if(faults.includes('consent')||(options.profile&&options.profile.permissions[v.touchpoint]===false))add('NO_SURFACE_PERMISSION','fail','The profile lacks permission for this precise touchpoint.','Suppress; do not silently switch to another app or channel.');
+ if(faults.includes('rewards')||v.rewards_policy==='points_offer_pending_approval')add('REWARDS_TERMS_PENDING','needs_review','A Rewards benefit has no approved terms.','Remove the benefit or provide approved eligibility and terms.');
+ if(faults.includes('expiry')||(v.rewards_policy==='points_offer_pending_approval'&&!v.promo_valid_until))add('PROMO_VALIDITY_MISSING','fail','An offer has no approved validity window.','Remove it or define approved terms and dates.');
+ if(v.promo_valid_until&&Date.parse(v.promo_valid_until)<Date.parse(CLOCK))add('PROMO_EXPIRED','fail','The promotion has expired.','Suppress the expired offer.');
+ if(faults.includes('duplicate')||(options.all?.filter(x=>x.signature===v.signature).length??0)>1)add('DUPLICATE_SIGNATURE','fail','Content and context duplicate another creative instance.','Deduplicate by signature; customer IDs do not create new creative.');
+ if(v.microcluster_ids.some(id=>['MC011','MC017','MC020','MC038','MC052','MC053','MC062','MC090'].includes(id)))add('COMPATIBILITY_UNVERIFIED','needs_review','The concept has no approved compatibility list.','A mock verification request may be shown; do not confirm an integration.','LUNA_HOME');
+ add('SOURCE_TRACEABILITY','pass','Source micro-cluster, slide, recipe and claim evidence retained.','Recheck after edits.','SOURCE_CATALOGUE');
+ add('LOGO_CLEAR_SPACE_NOT_VERIFIED','needs_review','Numeric clear space and minimum lettermark size are unavailable.','Obtain the readable authorized guide and logo asset.','LETTERMARK_GUIDE_2026');
+ add('FONT_FALLBACK_ACTIVE','needs_review','Arial fallback; licensed Samsung font files unavailable.','Supply authorized local fonts.','DEM_B2C_01');
+ add('CREATIVE_ASSET_PENDING_APPROVAL','needs_review','Luna concept asset placeholder; no official product render supplied.','Provide an authorized Luna visual.','LUNA_FORM');
+ add('BRAND_LEGAL_CAMPAIGN_PENDING','needs_review','Automatic checks do not approve the campaign or commercial scenario.','Complete human creative, brand, product and legal review.');
+ add('AUDIO','not_applicable','Static silent proof.','No audio needed.','BRAND_SOUND');return issues;}
+export const qaStatus=(issues:Issue[]):Variant['qa_status']=>issues.some(i=>i.status==='fail')?'fail':issues.some(i=>i.status==='needs_review')?'needs_review':'pass';

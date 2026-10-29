@@ -1,11 +1,13 @@
-# Reproducible demo (4–5 minutes)
+# V2 walkthrough (4–5 minutes)
 
-1. Start the app; the seed is 20261029. Reset demo restores the same records.
-2. Overview: inspect S2's synthetic engagement and the constructed SmartThings signal. Explain overlap and primary assignment.
-3. Gallery: 100 instances = 5 × 5 × 4. Filter S2 / teaser and inspect the desktop and mobile email. Show the template-derived master, neutral placeholder and source traceability.
-4. Compare three variants. Audience angle, body, insight and asset change; master and approval gate are reused. The default comparison uses S1/S2/S5 teaser emails.
-5. Journey: use sim_000042. Walk through five phases, simulate click, purchase and global opt-out, then reset. Every candidate has a reason. Cap edits are available in Contact strategy.
-6. Check: turn on missing disclaimer and CTA mismatch. Run preflight. Blocking faults and persistent human reviews are separate. Export a mock Jira delta.
-7. Export the 100-row CSV, full JSON bundle and an HTML proof. Preserve SYNTHETIC / ILLUSTRATIVE and PENDING BRAND VALIDATION.
+1. Open Product & sources. Explain Project Luna’s documented concept identity and unverified commercial fields. Switch between concept reference and labelled RFP launch simulation.
+2. Data & insights: explore D11 MOTIVATION and a lens. Inspect sim_000042’s provenance. Account and consumer counts remain separate.
+3. Audience library: open F04 / MC037, original wording and source slide. Explain overlaps and unknown evaluations.
+4. Gallery: change the requested target and inspect actual candidates / selected / eligible counts. A B2B target of 1,000 demonstrates an incomplete result without padding.
+5. Compare three recipes. Inspect copy, module mix, claims, source surface and proposed temporal mapping.
+6. Curated proofs: show Marco’s email, Elena’s web banner, Luca’s Shop push and the proposed WhatsApp adaptation. The six source personas are distinct.
+7. Customer journey: run sim_000042 through the six stages. Purchase stops recovery; delivery / setup / regular use follow separately. Simulate opt-out and reset.
+8. Check: inject an unverified commercial claim, B2B/consumer mismatch and false inactivity signal. Inspect remedies and mock Jira export.
+9. Export actual creative rows and coverage gaps. Keep simulation / approval labels and avoid claims of performance or industrial email certification.
 
-Do not call the catalogue 100 original concepts, actual sends, industrial email certification or measured performance. The complete RFP response, B2B proposal, economic proposal and executive reporting are beyond this demo.
+No login or credentials are required by explicit user instruction. No real message, purchase, registration, tracking or Samsung integration occurs.

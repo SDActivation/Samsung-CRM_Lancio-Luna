@@ -1,0 +1,72 @@
+[
+  {
+    "family_id": "F01",
+    "name": "Ecosystem Lovers",
+    "audience_type": "B2C",
+    "source_slide": 10,
+    "source_family_label": "ECOSYSTEM LOVERS – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F02",
+    "name": "Smart Home Explorers",
+    "audience_type": "B2C",
+    "source_slide": 10,
+    "source_family_label": "SMART HOME EXPLORERS – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F03",
+    "name": "Music & Entertainment",
+    "audience_type": "B2C",
+    "source_slide": 11,
+    "source_family_label": "MUSIC, CONTENT & ENTERTAINMENT – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F04",
+    "name": "Culinary Intelligence & Daily Rituals",
+    "audience_type": "B2C",
+    "source_slide": 11,
+    "source_family_label": "CULINARY INTELLIGENCE & DAILY RITUALS – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F05",
+    "name": "Premium, Design & Aspiration",
+    "audience_type": "B2C",
+    "source_slide": 12,
+    "source_family_label": "PREMIUM, DESIGN & ASPIRATION – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F06",
+    "name": "New to Samsung & Cross-Brand Acquisition",
+    "audience_type": "B2C",
+    "source_slide": 12,
+    "source_family_label": "NEW TO SAMSUNG & CROSS-BRAND ACQUISITION – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F07",
+    "name": "Lifecycle & Retention",
+    "audience_type": "B2C",
+    "source_slide": 13,
+    "source_family_label": "LIFECYCLE, RECENCY & RELATIONSHIP RENEWAL – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F08",
+    "name": "Retail & Omnichannel",
+    "audience_type": "B2C",
+    "source_slide": 13,
+    "source_family_label": "RETAIL, OMNICHANNEL & PURCHASE PREFERENCES – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F09",
+    "name": "B2B",
+    "audience_type": "B2B",
+    "source_slide": 14,
+    "source_family_label": "HOSPITALITY, RETAIL, WORKPLACE & EXPERIENCE – MICRO-CLUSTERS"
+  },
+  {
+    "family_id": "F10",
+    "name": "Behavioral Signals & Experimentation",
+    "audience_type": "mixed",
+    "source_slide": 14,
+    "source_family_label": "BEHAVIORAL SIGNALS, ADVOCACY & EXPERIMENTAL AUDIENCES (B2B/B2C) – MICRO-CLUSTERS"
+  }
+]

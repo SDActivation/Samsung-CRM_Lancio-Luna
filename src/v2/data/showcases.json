@@ -1,0 +1,80 @@
+[
+  {
+    "showcase_id": "SHOWCASE_1",
+    "journey_stage": "DISCOVER",
+    "source_slide": 16,
+    "persona_name": "Sofia",
+    "persona_age": 32,
+    "source_channel_label": "Samsung Members",
+    "original_text": "Premium & Design\n\nIllustrative persona: Sofia, 32 anni  ·  Channel: Samsung Members\n\nOBJECTIVE  ·  Visit the Luna landing page\n\nEXAMPLE CONTENT / COPY\n\nTechnology meets a new vision of design.\n\nThere is a new way to imagine the connected home. Meet Luna: distinctive design, a display that turns toward you, and new experiences to discover.\n\nCTA  ·  Step into the world of Luna\n\nTRIGGER → FOLLOW-UP\n\nInterest in design and lifestyle  |  Landing visit → design and feature content",
+    "copy_origin": "provided_deck_scenario",
+    "headline": "Technology meets a new vision of design.",
+    "body": "There is a new way to imagine the connected home. Meet Luna: distinctive design, a display that turns toward you, and new experiences to discover.",
+    "cta": "Step into the world of Luna"
+  },
+  {
+    "showcase_id": "SHOWCASE_2",
+    "journey_stage": "EDUCATE",
+    "source_slide": 17,
+    "persona_name": "Marco",
+    "persona_age": 39,
+    "source_channel_label": "Personalized email",
+    "original_text": "Culinary Intelligence\n\nIllustrative persona: Marco, 39 anni  ·  Channel: Personalized email\n\nOBJECTIVE  ·  Video consumption / value understanding\n\nEXAMPLE CONTENT / COPY\n\nWhat’s for dinner tonight? Ask Luna.\n\nLess time deciding. More time living. Explore recipe suggestions based on available ingredients and discover new kitchen rituals.\n\nCTA  ·  See Luna in the kitchen\n\nTRIGGER → FOLLOW-UP\n\nViews recipe and routine content  |  Video completed → more everyday rituals",
+    "copy_origin": "provided_deck_scenario",
+    "headline": "What’s for dinner tonight? Ask Luna.",
+    "body": "Less time deciding. More time living. Explore recipe suggestions based on available ingredients and discover new kitchen rituals.",
+    "cta": "See Luna in the kitchen"
+  },
+  {
+    "showcase_id": "SHOWCASE_3",
+    "journey_stage": "CONSIDER",
+    "source_slide": 18,
+    "persona_name": "Elena",
+    "persona_age": 36,
+    "source_channel_label": "Samsung.com banner",
+    "original_text": "Smart Home Explorers\n\nIllustrative persona: Elena, 36 anni  ·  Channel: Samsung.com banner\n\nOBJECTIVE  ·  Compatibility check / demo\n\nEXAMPLE CONTENT / COPY\n\nYour home is already smart. Make it more intuitive.\n\nMusic, compatible devices, and routines: discover what you can manage with Luna before making your choice.\n\nCTA  ·  Check compatibility\n\nTRIGGER → FOLLOW-UP\n\nRepeat visits to smart-home pages  |  Compatibility confirmed → offer a demo",
+    "copy_origin": "provided_deck_scenario",
+    "headline": "Your home is already smart. Make it more intuitive.",
+    "body": "Music, compatible devices, and routines: discover what you can manage with Luna before making your choice.",
+    "cta": "Check compatibility"
+  },
+  {
+    "showcase_id": "SHOWCASE_4",
+    "journey_stage": "CONVERT",
+    "source_slide": 19,
+    "persona_name": "Luca",
+    "persona_age": 29,
+    "source_channel_label": "Push Samsung Shop",
+    "original_text": "Behavioral Signals\n\nIllustrative persona: Luca, 29 anni  ·  Channel: Push Samsung Shop\n\nOBJECTIVE  ·  Incremental purchase\n\nEXAMPLE CONTENT / COPY\n\nYour Luna is waiting.\n\nYou left Luna in your cart. Pick up your purchase in just a few steps.\n\nCTA  ·  Complete your purchase\n\nTRIGGER → FOLLOW-UP\n\nLuna cart abandoned  |  Purchase → stop cart recovery, start onboarding",
+    "copy_origin": "provided_deck_scenario",
+    "headline": "Your Luna is waiting.",
+    "body": "You left Luna in your cart. Pick up your purchase in just a few steps.",
+    "cta": "Complete your purchase"
+  },
+  {
+    "showcase_id": "SHOWCASE_5",
+    "journey_stage": "ACTIVATE",
+    "source_slide": 20,
+    "persona_name": "Francesca",
+    "persona_age": 44,
+    "source_channel_label": "Email onboarding",
+    "original_text": "Lifecycle & Retention\n\nIllustrative persona: Francesca, 44 anni  ·  Channel: Email onboarding\n\nOBJECTIVE  ·  Setup and first use\n\nEXAMPLE CONTENT / COPY\n\nYour first moment with Luna starts here.\n\nWelcome! Set up your device, explore its features, and try your first routine. A simple guide to get started.\n\nCTA  ·  Set up Luna\n\nTRIGGER → FOLLOW-UP\n\nDelivered but setup incomplete  |  Setup → first routine; setup incomplete → support",
+    "copy_origin": "provided_deck_scenario",
+    "headline": "Your first moment with Luna starts here.",
+    "body": "Welcome! Set up your device, explore its features, and try your first routine. A simple guide to get started.",
+    "cta": "Set up Luna"
+  },
+  {
+    "showcase_id": "SHOWCASE_6",
+    "journey_stage": "GROW",
+    "source_slide": 21,
+    "persona_name": "Andrea",
+    "persona_age": 41,
+    "source_channel_label": "Samsung Rewards + Members",
+    "original_text": "Ecosystem Lovers\n\nIllustrative persona: Andrea, 41 anni  ·  Channel: Samsung Rewards + Members\n\nOBJECTIVE  ·  Usage, retention, and cross-sell\n\nEXAMPLE CONTENT / COPY\n\nYou’ve discovered Luna. Now explore what it can connect.\n\nExplore new routines, make more of the compatible devices you own, and check any available Samsung Rewards benefits.\n\nCTA  ·  Expand your experience\n\nTRIGGER → FOLLOW-UP\n\nRegular usage and multiple Samsung devices  |  Interest in complementary product → relevant content",
+    "copy_origin": "provided_deck_scenario",
+    "headline": "You’ve discovered Luna. Now explore what it can connect.",
+    "body": "Explore new routines, make more of the compatible devices you own, and check any available Samsung Rewards benefits.",
+    "cta": "Expand your experience"
+  }
+]

@@ -1,18 +1,16 @@
-# Production deployment — 29 October 2026
+# Deployment
 
-- URL: https://luna-crm-variant-studio.vercel.app
-- Target: production
-- Vercel state: READY
-- Team: SD ACTIVATION
-- Project: luna-crm-variant-studio
-- Deployment: dpl_2j3zGUubx6qg9TfDTMfvWz4KVMmg
-- Source commit: 47996e1bf9eaaf0740610b2f6779af3061942766
+- Site: https://luna-crm-variant-studio.vercel.app
+- GitHub: https://github.com/SDActivation/Samsung-CRM_Lancio-Luna
+- Vercel team: SD ACTIVATION
+- Vercel project: luna-crm-variant-studio
+- Project ID: prj_lGK7tlXmjFHQxYY2EuCtUZb5OUX5
+- Production branch: main
 - Framework: React / TypeScript / Vite
-- Build: unit tests and TypeScript / Vite passed; build completed in 14 seconds
-- Public production endpoint: HTTP 200 without authentication
-- Post-deploy browser verification: all 7 Playwright tests passed against the production URL (6.7 seconds)
-- Production is public; preview deployments retain Vercel Authentication
-- Runtime: static browser application, no backend credentials or external Samsung requests
-- Brand / legal / campaign validation remains pending
+- Build gate: unit tests followed by TypeScript and Vite production build
+- Public production; preview deployments retain Vercel Authentication
+- Application login / credentials: not enabled, by explicit user instruction
 
-GitHub synchronization is pending. The connected account is SDActivation, but SDActivation/luna-crm-variant-studio returned NOT_FOUND. The available GitHub connector supports files/branches/commits but has no create-repository operation. A new private repository must be created by the user and made accessible to the connector before uploading and enabling Git-triggered Vercel deployments. Existing unrelated repositories were not modified. Production was deployed directly from source files through the authenticated Vercel integration.
+V1 was initially deployed directly from reviewed local source. The dedicated GitHub repository is now connected to the same Vercel project; the Git integration builds main for production and branch changes for previews. V2 replaces the five-segment matrix with the source-led model documented in README and docs/v2-change-log.md.
+
+All data is synthetic; no original private specification, credential values or confidential raw reference file is included. Brand and campaign validation remains pending.

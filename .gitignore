@@ -14,3 +14,5 @@ data-fixtures/
 # Private specifications may contain bootstrap credentials; never distribute them.
 /SAMSUNG_CRM_*.md
 /private-reference/
+
+/server/generated/

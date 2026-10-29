@@ -12,7 +12,7 @@ import { preparePackage } from '../src/integrations/package';
 import { getCapabilities } from '../src/integrations/capabilities';
 import { IntegrationRequest, type HandoffRequest } from '../src/integrations/contracts';
 import { MockAdapter, StensulAdapter, MarketingOperationsAdapter } from '../server/connectors/adapters';
-import endpoint, { GET, POST } from '../api/handoff';
+import endpoint, { GET, POST } from '../server/routes/handoff';
 const profiles=generateSyntheticProfiles();const mc=catalogue.find(m=>m.microcluster_id==='MC037')!;
 const variant=()=>compose(mc,profiles[1],'EDUCATE','TEASER','EMAIL','rfp_launch_simulation');
 const input=(patch:Partial<HandoffRequest>={}):HandoffRequest=>({action:'simulate',destination:'stensul',mode:'mock',variants:[variant()],operator_confirmed:true,reviewer_notes:'Synthetic test proof, not for send.',scenario:'success',...patch});

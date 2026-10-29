@@ -1,6 +1,6 @@
-import { IntegrationRequest } from '../src/integrations/contracts';
-import { getCapabilities } from '../src/integrations/capabilities';
-import { MockAdapter } from '../server/connectors/adapters';
+import { IntegrationRequest } from '../../src/integrations/contracts';
+import { getCapabilities } from '../../src/integrations/capabilities';
+import { MockAdapter } from '../connectors/adapters';
 const headers={'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'};
 const json=(body:unknown,status=200)=>new Response(JSON.stringify(body),{status,headers});
 export async function GET(){return json({default_mode:'mock',application_login:false,external_writes_enabled:false,destinations:[getCapabilities('stensul'),getCapabilities('marketing_operations')]});}

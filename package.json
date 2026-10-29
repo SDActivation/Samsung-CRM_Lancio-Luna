@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/build-api.mjs",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "data": "tsx scripts/generate.ts",
@@ -26,6 +26,7 @@
     "tsx": "^4.20.0",
     "typescript": "~5.9.3",
     "vite": "^7.1.0",
-    "vitest": "^5.0.5"
+    "vitest": "^5.0.5",
+    "esbuild": "0.28.2"
   }
 }

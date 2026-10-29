@@ -10,3 +10,7 @@ private-reference/
 .DS_Store
 data-fixtures/
 *.tsbuildinfo
+
+# Private specifications may contain bootstrap credentials; never distribute them.
+/SAMSUNG_CRM_*.md
+/private-reference/

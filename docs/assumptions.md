@@ -1,4 +1,4 @@
-# V2 assumptions and review register
+# Current assumptions and review register
 
 SYNTHETIC / ILLUSTRATIVE. Seed 20261029; fixed evaluation time 2026-10-29 12:00 UTC. Deterministic rule / template generation, not AI-generated.
 
@@ -17,3 +17,9 @@ The six original personas are different illustrative people. Their source copy i
 The user explicitly removed the login requirement. Bootstrap values were removed from the private V2 input. No credentials, password hashes, authentication flags or services are in this build. The app is a public synthetic demonstration. The private Markdown and original confidential source files are excluded from the repository and exports.
 
 Brand / product / legal / asset approval remains pending. Browser rendering does not certify Gmail / Outlook / Apple Mail; those checks are NOT TESTED. Arial fallback is active and numeric lettermark clear space / minimum size are unverified.
+
+V3 / spec 2.1: Samsung CRM Activation Studio is the functional tool name; Luna is the product. The original white Samsung PNG is now present with official-host provenance and checksum. Final campaign permission, numeric lettermark clear space, fonts, legal and product imagery remain in review.
+
+The private V3 input is inside the local project directory but explicitly Git-ignored and excluded from uploads/exports. It is never a public build input. The user's instruction to omit login supersedes its inherited authentication section.
+
+Handoff is same-origin server-side mock/manual only. No external Stensul or Marketing Operations write is authorized or performed. The alternative platform is unspecified. Review HTML is not claimed to be vendor-editable modules. Receipts are browser-local simulated records; no durable multi-instance store or authoritative vendor state is claimed. See docs/integration-contract.md.

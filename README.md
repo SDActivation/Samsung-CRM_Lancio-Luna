@@ -1,12 +1,12 @@
-# Luna CRM Variant Studio · V2
+# Samsung CRM Activation Studio · V3
 
-A React / TypeScript CRM creative demonstration driven by source definitions, explicit rules and synthetic evidence.
+A React / TypeScript Samsung CRM workspace for the product **Luna**, driven by source definitions, explicit rules and synthetic evidence. V3 implements specification 2.1.
 
 **SYNTHETIC / ILLUSTRATIVE · RFP DEMO — SIMULATED COMMERCIAL LAUNCH · PENDING BRAND VALIDATION**
 
 The 100 original micro-clusters are a source catalogue, not a promise of 100 original concepts or actual sends. A configurable target is selected from coherent, signature-deduplicated recipes. If the pool is too small, the result is explicitly incomplete with a coverage-gap report.
 
-The user explicitly requested no credentials or login for now. No authentication, passwords, secrets or login flag is included. All runtime profiles and events are synthetic. The original private Markdown, screenshots and source presentation remain outside GitHub, browser assets and exports.
+The user explicitly requested no credentials or login for now. No authentication, passwords, secrets or login flag is included. The handoff server supports only mock and manual review; live writes are disabled. All runtime profiles and events are synthetic. The original private Markdown, screenshots and source presentation remain outside GitHub, browser assets and exports.
 
 ## Run and verify
 
@@ -40,8 +40,16 @@ Seed: 20261029. Evaluation time: 2026-10-29 12:00 UTC. `npm run data` materializ
 
 Source text from Appendix A is immutable and separately versioned from resolved rules. Additional journey, phase and surface mappings are `implementation_proposal`; WhatsApp is `RFP_adaptation`. The source-deck 30-day MC061 threshold is distinct from configurable illustrative caps and unknown general CRM thresholds.
 
-The B2C email master preserves the observed 660/640px dark structure, typography hierarchy, CTA pill and modular footer from the supplied specification. Original Outlook HTML was not present in the project folder. Authorized logo, fonts, Luna visual and legal line are still missing. Arial and an explicit asset-pending slot are used. B2B has its own visibly unapproved template placeholder.
+The B2C email master preserves the observed 660/640px dark structure, typography hierarchy, CTA pill and modular footer from the supplied specification. Original Outlook HTML was not present in the project folder. The original Samsung lettermark has been acquired from the explicit official sample URL, visually verified and pinned by checksum; its bytes are unchanged. Authorized fonts, a Luna product visual and approved legal lines remain missing. Arial and an explicit product-visual-pending slot are used. B2B has its own visibly unapproved template placeholder.
 
 Browser proofs do not certify Gmail / Outlook / Apple Mail compatibility. No measured savings, uplift, service SLA, commercial launch or Samsung approval is claimed. Every instance retains `production_approved: false`.
 
-See `docs/v2-change-log.md`, `docs/assumptions.md`, `docs/demo-script.md` and `docs/verification.md`. Vercel builds run unit tests before TypeScript and Vite. No environment variables are needed for this credential-free demo.
+See `docs/v3-change-log.md`, `docs/integration-contract.md`, `docs/v2-change-log.md`, `docs/assumptions.md`, `docs/demo-script.md` and `docs/verification.md`. Vercel builds run unit tests before TypeScript and Vite. No environment variables are needed for this credential-free demo. The same-origin `/api/handoff` function handles simulated batches; Vite serves its local adapter during development.
+
+## Brand and activation handoff
+
+The tool displays the original Samsung lettermark and the separate functional title CRM Activation Studio. Customer-facing content names the product Luna; source titles retain Project Luna. Self-contained visual exports retain Samsung identity. Text-only OS notifications use the correct Samsung app sender instead of forcing an image into the payload.
+
+Activation handoff supports a Stensul demo adapter and an explicitly unspecified Marketing Operations alternative. Select creative versions, validate, simulate one server-side batch or download a canonical review package. Receipts distinguish simulated, manual, failed and unknown outcomes and include per-item keys/checksums. No customer lists, access secrets, remote IDs/URLs, real provider drafts, approval, scheduling or sends are fabricated.
+
+**Live connector not configured.** The live adapters are blocked until an authorized tenant/API or MCP contract, module/asset mappings, permissions, durable job/receipt store and operator roles are supplied and verified. Public documentation is not tenant authorization. Local demo receipts persist only in the current browser and are clearly labelled non-authoritative.

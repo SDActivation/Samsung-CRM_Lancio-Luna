@@ -9,3 +9,5 @@
 - The private V5 spec remains gitignored and is excluded from source upload/build. No app login, real recipients, paid runtime service, provider secret or external send was introduced.
 
 Production browser verification is performed after release. Live AI chat, live image jobs and live marketing transfers remain unavailable and are not included in these pass claims. Arial fallback remains explicit; actual email-client/dark-mode certification is not claimed.
+
+Production checks: 88 unit tests passed against the committed release. Sixteen browser tests passed; the remaining full gallery/customer-destination flow exposed the missing Vercel `/mock/*` SPA rewrite. A specific same-application rewrite was added, preserving `/api` and static assets; the corrected flow is verified after redeployment.

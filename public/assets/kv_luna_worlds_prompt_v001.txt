@@ -1,0 +1,7 @@
+Tool mode: built-in image_gen, reference-guided edits. Living master generated on 2026-10-29 and reviewed/reclassified 2026-10-30. Three additional scene edits generated 2026-10-30. Provider/model version not exposed by authoring tool.
+Reference 1: previous generated Luna artwork, editing target and appearance reference. Reference 2: cropped editorial photograph, geometry only.
+Preserve same stationary tabletop device: full solid dark circular head, inset orange/violet ring, bezel thickness, short dark tapered pedestal, proportions and slightly elevated frontal viewpoint. Whole device at center-right, quiet left space, landscape 16:9. Do not redesign product.
+Music: distinct evening listening corner, walnut console, unbranded vinyl sleeves, over-ear headphones and lamp. No capability implied.
+Kitchen: distinct bright domestic kitchen, dry stable counter, tomatoes/herbs, chopping board and dining setting. No water, steam, heat, scanning or appliance control.
+Smart work: distinct domestic wooden desk, closed neutral laptop, blank notebook/pen, lamp and shelves, daylight. No corporate office, meeting, calendar, professional UI or productivity claims.
+Contemporary premium domestic photography, credible materials and controlled light. Scenes semantically different, not recolours/crops. No logos, words, watermark, brands, prices, UI, holograms, light connections, extra hardware, faces, wheels, invented sensors or compatibility claims. Props are context only. Generated RFP concept proposal, not official product photography.

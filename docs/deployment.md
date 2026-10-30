@@ -3,7 +3,7 @@
 - Site: https://luna-crm-variant-studio.vercel.app
 - Functional application name: Samsung CRM Activation Studio
 - Product: Luna
-- Release: V4 core / specification 2.3; live model and image services not connected
+- Release: V5 core / specification 2.4; live model and image services not connected
 - GitHub: https://github.com/SDActivation/Samsung-CRM_Lancio-Luna
 - Vercel team: SD ACTIVATION
 - Project: luna-crm-variant-studio (technical URL/project ID retained)

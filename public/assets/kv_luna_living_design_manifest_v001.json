@@ -1,0 +1,90 @@
+{
+  "asset_id": "LUNA_LIVING_DESIGN_SCENE_V001",
+  "scene_master_asset_id": "LUNA_LIVING_DESIGN_SCENE_V001",
+  "visual_world_id": "living_design",
+  "kv_family_id": "LUNA_LAUNCH_KV",
+  "canonical_product_asset_id": "LUNA_PRODUCT_APPEARANCE_V001",
+  "canonical_product_version": "1",
+  "canonical_reference_asset": "LUNA_LAUNCH_KV_ARTWORK_V001",
+  "file": "/assets/kv_luna_living_design_artwork_v001.jpg",
+  "original_file": "/assets/kv_luna_living_design_artwork_v001.png",
+  "width_px": 1672,
+  "height_px": 941,
+  "bytes": 198187,
+  "checksum_sha256": "54d2640084de02206710f4f9ce33a522c9304a217e2976cf237b59a1881c2222",
+  "original_checksum_sha256": "c0fbca3407f3e1eb59e8f652dc77f64a0d88c8d5892f37cc1386e479ed19beef",
+  "asset_origin": "generated_demo_asset",
+  "official_asset": false,
+  "production_approved": false,
+  "demo_approved": false,
+  "created_at": "2026-10-29",
+  "provider": "OpenAI built-in image_gen authoring tool",
+  "model": "Not exposed by tool",
+  "model_version": "Not exposed",
+  "prompt_version": "luna-worlds-2.4.1",
+  "scene_brief": "Contemporary inhabited living room, stone console, sofa and soft light. Existing launch master reclassified only after visual review.",
+  "creative_context": "living_design",
+  "product_capabilities": "Context only; no new capabilities inferred from props",
+  "references": [
+    {
+      "source": "LUNA_HDBLOG_SCREENSHOTS",
+      "role": "Editorial product geometry crop, not page layout"
+    },
+    {
+      "source": "LUNA_LAUNCH_KV_ARTWORK_V001",
+      "role": "Generated canonical appearance and editing target; not official product evidence"
+    }
+  ],
+  "product_fidelity_review": {
+    "status": "product_review_passed",
+    "reviewer": "Codex visual comparison, 2026-10-30",
+    "checks": [
+      "Same solid dark circular head and short pedestal",
+      "Visible inset luminous ring",
+      "Whole device intact; no invented hardware",
+      "Distinct contextual scene, not a recolour or crop"
+    ],
+    "human_review": "pending"
+  },
+  "disclosure": "Visual di concept generato con AI \u2014 proposta RFP, non campagna ufficiale Samsung",
+  "alt_text": "Luna in un ambiente living di design: visual di concept generato con AI.",
+  "derivations": [
+    {
+      "asset_id": "LUNA_LIVING_DESIGN_SCENE_V001_COMPOSED",
+      "parent_asset_id": "LUNA_LIVING_DESIGN_SCENE_V001",
+      "file": "/assets/kv_luna_living_design_composed_v001.png",
+      "width_px": 1280,
+      "height_px": 720,
+      "checksum_sha256": "937bff31472cb8e86f352181637f61563ba05ff385265bf6c781f5d09406e4ef",
+      "bytes": 613936,
+      "transformation": "Native text/logo composition; whole artwork contained, no product crop/stretch. Arial fallback.",
+      "official_asset": false,
+      "production_approved": false
+    },
+    {
+      "asset_id": "LUNA_LIVING_DESIGN_SCENE_V001_SQUARE",
+      "parent_asset_id": "LUNA_LIVING_DESIGN_SCENE_V001",
+      "file": "/assets/kv_luna_living_design_square_v001.png",
+      "width_px": 1080,
+      "height_px": 1080,
+      "checksum_sha256": "3ac964e442afa353d10bd9328cd53d8404d2dbe5e0eca43e9644e2753a914ea3",
+      "bytes": 837127,
+      "transformation": "Native text/logo composition; whole artwork contained, no product crop/stretch. Arial fallback.",
+      "official_asset": false,
+      "production_approved": false
+    },
+    {
+      "asset_id": "LUNA_LIVING_DESIGN_SCENE_V001_PORTRAIT",
+      "parent_asset_id": "LUNA_LIVING_DESIGN_SCENE_V001",
+      "file": "/assets/kv_luna_living_design_portrait_v001.png",
+      "width_px": 1080,
+      "height_px": 1350,
+      "checksum_sha256": "ddec36e6580042c6b64f6cc94b62b3429450f45b6f4d56249aa17a5d430cf975",
+      "bytes": 844460,
+      "transformation": "Native text/logo composition; whole artwork contained, no product crop/stretch. Arial fallback.",
+      "official_asset": false,
+      "production_approved": false
+    }
+  ],
+  "prompt_file": "/assets/kv_luna_worlds_prompt_v001.txt"
+}

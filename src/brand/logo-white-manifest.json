@@ -1,0 +1,23 @@
+{
+  "asset_id": "samsung_lettermark_white_transparent",
+  "brand_name": "Samsung",
+  "file": "/assets/samsung-lettermark-original.png",
+  "source_url": "https://res6.it.email.samsung.com/res/img/DED51EDC60274E9E39B8696BA42EC130.png",
+  "source_id": "DEM_B2C_01",
+  "source_locator": "Original Samsung B2C sample asset",
+  "checksum_sha256": "1ce75f8e340e2837773c3bed1f7155c1c71b19aa3a5dc54af05e91eb279a9ba5",
+  "bytes": 6610,
+  "width_px": 345,
+  "height_px": 92,
+  "aspect_ratio": 3.75,
+  "png_bit_depth": 8,
+  "png_color_type": 6,
+  "color_variant": "Original white transparent PNG",
+  "source_verification": "verified_official_samsung_host",
+  "visual_inspection": "verified_original_lettermark",
+  "transformation": "none",
+  "approval_status": "RFP_demo_reference_only; final campaign/licensing review pending",
+  "clear_space_status": "needs_review",
+  "minimum_size_status": "needs_review",
+  "tool_use": "White transparent lettermark on black module/sidebar only"
+}
